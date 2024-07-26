@@ -9,7 +9,7 @@ class Person {
 	{
 		return this.Name
 	}
-	set age()
+	set age(age)
 	{
 		this.Age=age
 	}
