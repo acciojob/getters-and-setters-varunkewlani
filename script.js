@@ -2,16 +2,21 @@
 class Person {
 	constructor(name, age)
 	{
-		this.Name=name
-		this.Age=age			
+		this._Name=name 
+		
+/*_Name and _age represents Name as a private property 
+and not public, so the child classes can access these*/
+
+		
+		this._Age=age			
 	}
 	get name()
 	{
-		return this.Name
+		return this._Name
 	}
 	set age(age)
 	{
-		this.Age=age
+		this._Age=age
 	}
 }
 
