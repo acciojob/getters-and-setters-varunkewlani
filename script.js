@@ -13,10 +13,6 @@ class Person {
 	{
 		this.Age=age
 	}
-	get AAge(age)
-	{
-		
-	}
 }
 
 class Student extends Person {
