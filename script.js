@@ -5,28 +5,31 @@ class Person {
 		this.Name=name
 		this.Age=age			
 	}
-	get name()
+	get NName()
 	{
 		return this.Name
 	}
-	set age(age)
+	set AAge(age)
 	{
 		this.Age=age
 	}
+	get AAge(age)
+	{
 		
+	}
 }
 
 class Student extends Person {
 	study()
 	{
-		console.log(this.Name + " is studying")
+		console.log(user.NName + " is studying")
 	}
 }
 
 class Teacher extends Person {
 	teach()
 	{
-		console.log(this.Name + " is teaching");
+		console.log(user.NName + " is teaching");
 	}
 }
 
